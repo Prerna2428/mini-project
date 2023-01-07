@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(252, 60, 98);
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: rgb(206, 225, 32);
+    display: flex;
+    margin-top: 40px;
+    border-radius: 30px;
+    
+    
+}
+.contact-left{
+    flex-basis: 50%;
+    padding: 40px 60px;
+    
+    
+    
+}
+.contact-left h2{
+    margin-bottom: 20px;
+    color: #1c00b5;
+    font-weight:400 ;
+}
+.contact-right{
+    flex-basis: 50%;
+    padding: 40px;
+    background-color: rgb(97, 27, 226);
+    color: beige;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.input-row{
+    justify-content:space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis:45% ;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(228, 166, 166);
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid rgb(240, 174, 174);
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:rgb(11, 11, 11);
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border:none;
+    outline:none;
+    color:#fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+button:hover{
+    background-color: coral;
+}
+.contact-right h1{
+    margin-bottom: 20px;
+    color: #f0eef9;
+    font-weight:400 ;
+    margin-left: 40px;
+}
+.container span{
+    font-size: 70px;
+}
+.container p{
+    font-size: 20px;
+    color: honeydew;
+}
+
+.contact-right .contactInfo{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-right .contactInfo .box{
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+.input-row label{
+    font-weight: 100;
+    text-decoration: solid;
+    font-size: 15px;
+}
+.contact-right:hover{
+    background-color:rgb(58, 38, 53);
+}

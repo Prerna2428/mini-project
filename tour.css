@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserat;
+    background-image:linear-gradient(rgba(84, 75, 75, 0.252),rgba(61, 55, 55, 0.258)), url(picture/80\ feet\ Buddha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+nav{
+    background: rgba(73, 142, 159, 0.886);
+    height: 80px;
+    width: 100%;
+    color:chartreuse;
+    position: fixed;
+}
+label.logo{
+    color: rgb(35, 18, 51);
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+label.logo:hover{
+    color:khaki;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 5px;
+    text-decoration: none;
+    
+}
+nav ul li a{
+    color: chartreuse;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+a:hover{
+    background:#ff1ba0;
+    
+}
+ main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(69, 233, 24);
+    
+ }
+ section h3{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    color: floralwhite;
+    margin-bottom: 15px;
+
+ }
+ section h1{
+    font-size:50px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+ }
+ section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:rgb(59, 19, 239);
+ }
+
+ section .btnone{
+
+    background: chartreuse;
+ }
+ section .btntwo{
+     background: white;
+ }
+ section marquee h3{
+    color: rgb(4, 4, 4);
+    font-style: verdana;
+
+ }
+ section .btnone:hover{
+
+    background: rgb(249, 242, 57);
+ }
+ section .btntwo:hover{
+     background: rgb(249, 55, 136);
+ }
+ section h1:hover{
+    color: brown;
+ }
+ section marquee h3:hover{
+    color: darkorange;
+
+ }
+ 

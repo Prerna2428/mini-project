@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(105, 253, 255);
+    
+    
+}
+.gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 50px;
+    background-color: crimson;
+}
+.gallery .box-container .container{
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    flex: 1 1 10rem;
+    height: 25rem;
+    position: relative;
+
+}
+.gallery .box-container .container .content .btn:hover{
+    background-color: rgb(13, 14, 16);
+
+
+}
+.gallery .box-container .container img{
+    height: 80%;
+    width: 100%;
+    margin-top: 80px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.gallery .box-container .container .content{
+    position: absolute;
+    text-align: center;
+    top: 0; left: 0;
+    color: rgb(12, 3, 26);
+
+   
+    
+}
+.gallery .heading{
+    text-align: center;
+    font-size: 70px;
+
+}
+.gallery .box-container .container .content .btn{
+    
+    margin-top: 1.6rem;
+    display: inline-block;
+    color: beige;
+    background: rgb(237, 6, 95);
+    padding: 8px 14px;
+    border-radius: 6px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+    
+}
+.container .content h2:hover{
+    background-color: rgb(237, 6, 95);
+}
+
+
